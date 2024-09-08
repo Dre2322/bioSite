@@ -41,15 +41,25 @@ main {
 /* Styles for index.html */
 .photo-gallery {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Arrange items in a vertical column */
+    gap: 20px; /* Space between items */
+}
+
+.photo-item {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    gap: 20px; /* Space between photo and caption */
+}
+
+.photo-container {
+    display: flex;
     align-items: center;
+    gap: 20px; /* Space between image and caption */
 }
 
 .gallery-photo {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 10px;
+    max-width: 300px; /* Adjust as needed for larger photos */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Styles for about.html */
