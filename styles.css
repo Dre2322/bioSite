@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6FA; /* background color */
+    color: #008080; /* text color */
+    font-weight: bold;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+header {
+    background-color: #6A0D91; /* Primary color */
+    color: #98FF98;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #98FF98;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px;
+}
+
+/* Styles for index.html */
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-photo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Styles for about.html */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-photo {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 55%;
+}
+
+/* Styles for hobbies.html */
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hobby-photo {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.hobby-description {
+    max-width: 55%;
+}
+
+.hobby-1 .hobby-description {
+    margin-left: auto;
+}
+
+.hobby-2 {
+    flex-direction: row-reverse;
+}
+
+.hobby-2 .hobby-description {
+    margin-right: auto;
+}
+
+.hobby-3 .hobby-description {
+    margin-left: auto;
+}
