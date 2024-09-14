@@ -111,3 +111,53 @@ main {
 .hobby-3 .hobby-description {
     margin-left: auto;
 }
+
+footer {
+    background-color: #6A0D91;
+    position: fixed; /* Keeps the footer at the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px; /* Adds padding for spacing */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right; /* Aligns the text to the right */
+    margin: 0; /* Removes default margin */
+    white-space: nowrap; /* Prevents the text from wrapping to the next line */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+}
