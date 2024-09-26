@@ -23,7 +23,6 @@ header {
     margin: 0 auto; /* Center the container horizontally */
 }
 
-
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -45,6 +44,15 @@ nav a:hover {
 
 main {
     margin: 20px;
+    font-size: 1.2em; /* Adjust the size as needed */
+}
+
+.intro p, .photos figcaption {
+    font-size: 1.0em; /* Ensure text in these sections is also larger */
+}
+
+h2 {
+    text-align: center; /* Center the heading text */
 }
 
 /* Styles for index.html */
@@ -63,12 +71,34 @@ main {
 .photo-container {
     display: flex;
     align-items: center;
-    gap: 20px; /* Space between image and caption */
+    gap: 100px; /* Space between image and caption */
+}
+
+.goal-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Space between text and photo */
+    background-color: #E6E6FA; 
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding for space inside the container */
+    margin-bottom: 50px; /* Space between containers */
+}
+
+.goal-text {
+    max-width: 60%; /* Adjust as needed to control text width */
 }
 
 .gallery-photo {
-    max-width: 300px; /* Adjust as needed for larger photos */
+    max-width: 400px; /* Adjust as needed for the photo size */
     height: auto; /* Maintain aspect ratio */
+    margin-left: 100px; /* Increase left margin to add more space between text and photo */
+}
+
+.goal-title {
+    text-align: center; /* Center the heading text */
+    font-size: 1.5em; /* Adjust font size as needed */
+    color: #008080; /* Color for the title */
+    margin: 0 0 10px 0; /* Space below the title */
 }
 
 /* Styles for about.html */
